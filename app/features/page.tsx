@@ -3,14 +3,14 @@
 import { motion } from "framer-motion";
 import { Card } from "@/components/ui/card";
 import {
-  Globe,
-  MonitorPlay,
-  SquarePen,
+  Brain,
+  Shield,
   Fingerprint,
   Activity,
   Bot,
   LineChart,
-HeartHandshake,
+  Wifi,
+  Heart,
 } from "lucide-react";
 
 const features = [
@@ -18,30 +18,19 @@ const features = [
     icon: <Bot className="w-10 h-10 text-primary" />,
     title: "AI-Powered Therapy",
     description:
-      "24/7 access to empathetic AI agents' emotion detection helps understand your mental state and provide appropriate interventions.",
+      "24/7 access to empathetic AI agents trained in various therapeutic approaches, providing personalized mental health support.",
   },
   {
-    icon: <HeartHandshake className="w-10 h-10 text-primary" />,
-    title: "Counsellor Integration",
+    icon: <Shield className="w-10 h-10 text-primary" />,
+    title: "Blockchain Security",
     description:
-      "Booking time made simple—pick a slot that works for you and you’re all set.",
+      "Your therapy sessions are secured by blockchain technology, ensuring complete privacy and transparent record-keeping.",
   },
   {
-    icon: <Fingerprint className="w-10 h-10 text-primary" />,
-    title: "Anonymity",
+    icon: <Brain className="w-10 h-10 text-primary" />,
+    title: "Smart Analysis",
     description:
-      "Guarantees 100% anonymity, reducing stigma and encouraging help-seeking behavior.",
-  },
-  {
-    icon: <SquarePen className="w-10 h-10 text-primary" />,
-    title: "Screening Tools",
-    description: "Questionnaires (like PHQ-7/GAD-9) can detect up to 70% of undiagnosed cases.",
-  },
-   {
-    icon: <LineChart className="w-10 h-10 text-primary" />,
-    title: "Analytical Dashboard",
-    description:
-      "Provides detailed reports on behavioral trends, overall state of the institution, and data of previously used methods for tackling stress levels.",
+      "Advanced NLP and emotion detection helps understand your mental state and provide appropriate interventions.",
   },
   {
     icon: <Activity className="w-10 h-10 text-primary" />,
@@ -50,17 +39,29 @@ const features = [
       "Real-time monitoring and emergency response protocols to ensure your safety during critical situations.",
   },
   {
-    icon: <Globe className="w-10 h-10 text-primary" />,
-    title: "Multilanguage Support",
+    icon: <Wifi className="w-10 h-10 text-primary" />,
+    title: "IoT Integration",
     description:
-      "Making sure everyone can use it easily in their own language, no matter where they’re from.",
+      "Connect with smart home devices to create an ambient therapeutic environment that adapts to your needs.",
   },
   {
-    icon: <MonitorPlay className="w-10 h-10 text-primary" />,
-    title: "Resource repository",
+    icon: <LineChart className="w-10 h-10 text-primary" />,
+    title: "Progress Tracking",
     description:
-      "All the right resources in one place, easy to find and ready when you need them.",
-  },  
+      "Detailed analytics and insights about your mental health journey, with blockchain-verified session records.",
+  },
+  {
+    icon: <Fingerprint className="w-10 h-10 text-primary" />,
+    title: "Privacy First",
+    description:
+      "End-to-end encryption and zero-knowledge proofs ensure your data remains completely confidential.",
+  },
+  {
+    icon: <Heart className="w-10 h-10 text-primary" />,
+    title: "Holistic Care",
+    description:
+      "Integration with wearables and health providers for comprehensive mental wellness monitoring.",
+  },
 ];
 
 export default function FeaturesPage() {
