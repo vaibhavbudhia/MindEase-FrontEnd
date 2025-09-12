@@ -5,8 +5,8 @@
 @layer base {
   :root {
     /* Calming light theme colors */
-    --background: gray-600;
-    --foreground: red-700;
+    --background: 180 20% 99%;
+    --foreground: 200 8% 24%;
 
     --card: 180 20% 99%;
     --card-foreground: 200 8% 24%;
