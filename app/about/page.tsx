@@ -9,19 +9,20 @@ const missions = [
     icon: <Heart className="w-8 h-8 text-primary" />,
     title: "Our Mission",
     description:
-      "To democratize access to mental health support through ethical AI and blockchain technology, making quality therapeutic care available to everyone, everywhere, at any time.",
+      "To bridge the gap between students and mental health support through technology and empathy by building an accessible, stigma-free mental health support for college campuses",
   },
   {
     icon: <Target className="w-8 h-8 text-primary" />,
     title: "Our Vision",
     description:
-      "A world where mental health support is accessible, private, and personalized, powered by trusted AI agents and secured by blockchain technology.",
+      "To establish a unified support system that reaches every educational institute across the nation, ensuring no student is 
+left inaccessible to care and guidance.",
   },
   {
     icon: <Sparkles className="w-8 h-8 text-primary" />,
     title: "Our Values",
     description:
-      "Privacy, Innovation, Empathy, and Trust form the cornerstone of our platform, ensuring the highest standards of care and security.",
+      "We offer anonymous, compassionate mental health support, accessible in all regional languages, while responsibly empowering researches.",
   },
 ];
 
@@ -36,11 +37,10 @@ export default function AboutPage() {
         className="text-center mb-20"
       >
         <h1 className="text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
-          About Aura3.0
+          About MindEase
         </h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-          We're revolutionizing mental health support by combining cutting-edge
-          AI technology with the security and transparency of blockchain.
+          Redefining digital mental health with a one-stop platform that ensures student well-being in every way, while enabling institutions with data insights and simplified management of student well-being
         </p>
       </motion.div>
 
