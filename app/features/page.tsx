@@ -3,12 +3,14 @@
 import { motion } from "framer-motion";
 import { Card } from "@/components/ui/card";
 import {
+  Brain,
+  Shield,
   Fingerprint,
   Activity,
   Bot,
   LineChart,
-  HandHeart,
-  MonitorPlay,
+  Wifi,
+  Heart,
 } from "lucide-react";
 
 const features = [
@@ -19,34 +21,46 @@ const features = [
       "24/7 access to empathetic AI agents trained in various therapeutic approaches, providing personalized mental health support.",
   },
   {
-    icon: <Activity className="w-10 h-10 text-primary" />,
-    title: "Screening Tools",
+    icon: <Shield className="w-10 h-10 text-primary" />,
+    title: "Blockchain Security",
     description:
-      "Questionnaires (like PHQ7/GAD-9) can detect up to 70% of undiagnosed cases.",
+      "Your therapy sessions are secured by blockchain technology, ensuring complete privacy and transparent record-keeping.",
+  },
+  {
+    icon: <Brain className="w-10 h-10 text-primary" />,
+    title: "Smart Analysis",
+    description:
+      "Advanced NLP and emotion detection helps understand your mental state and provide appropriate interventions.",
+  },
+  {
+    icon: <Activity className="w-10 h-10 text-primary" />,
+    title: "Crisis Detection",
+    description:
+      "Real-time monitoring and emergency response protocols to ensure your safety during critical situations.",
+  },
+  {
+    icon: <Wifi className="w-10 h-10 text-primary" />,
+    title: "IoT Integration",
+    description:
+      "Connect with smart home devices to create an ambient therapeutic environment that adapts to your needs.",
   },
   {
     icon: <LineChart className="w-10 h-10 text-primary" />,
-    title: "Analytical Dashboard",
+    title: "Progress Tracking",
     description:
-      " Provides detailed reports on behavioral trends and overall state of the Institution",
+      "Detailed analytics and insights about your mental health journey, with blockchain-verified session records.",
   },
   {
     icon: <Fingerprint className="w-10 h-10 text-primary" />,
-    title: "Anonymity",
+    title: "Privacy First",
     description:
-      "Guarantees 100% anonymity, reducing stigma and encouraging help-seeking behavior.",
+      "End-to-end encryption and zero-knowledge proofs ensure your data remains completely confidential.",
   },
   {
-    icon: <HandHeart className="w-10 h-10 text-primary" />,
-    title: "Counsellor Integration",
+    icon: <Heart className="w-10 h-10 text-primary" />,
+    title: "Holistic Care",
     description:
-      "Helps high-risk students to certified counselors, ensuring timely support.",
-  },
-  {
-    icon: <MonitorPlay  className="w-10 h-10 text-primary"/>,
-    title: "Resource Repository",
-    description:
-      "All the right resources in one place, easy to find and ready when you need them.",
+      "Integration with wearables and health providers for comprehensive mental wellness monitoring.",
   },
 ];
 
