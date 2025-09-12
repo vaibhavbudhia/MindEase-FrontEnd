@@ -5,8 +5,8 @@
 @layer base {
   :root {
     /* Calming light theme colors */
-    --background: #9333ea;
-    --foreground: #9333ea;
+    --background: 180 20% 99%;
+    --foreground: 200 8% 24%;
 
     --card: 180 20% 99%;
     --card-foreground: 200 8% 24%;
@@ -15,12 +15,12 @@
     --popover-foreground: 200 8% 24%;
 
     /* Soft sage green as primary */
-    --primary: #d946ef;
-    --primary-foreground: #d946ef;
+    --primary: 150 30% 60%;
+    --primary-foreground: 150 40% 16%;
 
     /* Gentle lavender as secondary */
-    --secondary: #9333ea%;
-    --secondary-foreground: #9333ea%;
+    --secondary: 250 20% 96%;
+    --secondary-foreground: 250 10% 30%;
 
     /* Muted tones */
     --muted: 210 20% 96%;
