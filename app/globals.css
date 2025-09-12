@@ -6,7 +6,7 @@
   :root {
     /* Calming light theme colors */
     --background: gray-600;
-    --foreground: 200 8% 24%;
+    --foreground: red-700;
 
     --card: 180 20% 99%;
     --card-foreground: 200 8% 24%;
