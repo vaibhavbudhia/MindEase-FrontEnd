@@ -15,8 +15,7 @@ const missions = [
     icon: <Target className="w-8 h-8 text-primary" />,
     title: "Our Vision",
     description:
-      "To establish a unified support system that reaches every educational institute across the nation, ensuring no student is 
-left inaccessible to care and guidance.",
+      "To establish a unified support system that reaches every educational institute across the nation, ensuring no student is left inaccessible to care and guidance  .",
   },
   {
     icon: <Sparkles className="w-8 h-8 text-primary" />,
