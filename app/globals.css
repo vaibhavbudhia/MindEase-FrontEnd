@@ -19,8 +19,8 @@
     --primary-foreground: #d946ef;
 
     /* Gentle lavender as secondary */
-    --secondary: 250 20% 96%;
-    --secondary-foreground: 250 10% 30%;
+    --secondary: #9333ea%;
+    --secondary-foreground: #9333ea%;
 
     /* Muted tones */
     --muted: 210 20% 96%;
