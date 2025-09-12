@@ -55,6 +55,7 @@ title: "Multilanguage Support",
 description:
 "Making sure everyone can use it easily in their own language, no matter where they’re from.",
 },
+
 {
 export default function FeaturesPage() {
   return (
@@ -113,4 +114,5 @@ export default function FeaturesPage() {
       </motion.div>
     </div>
   );
+}
 }
