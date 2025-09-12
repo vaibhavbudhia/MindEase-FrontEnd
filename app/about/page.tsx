@@ -9,14 +9,14 @@ const missions = [
     icon: <Heart className="w-8 h-8 text-primary" />,
     title: "Our Mission",
     description:
-      "To bridge the gap between students and mental health support through technology and empathy by building an accessible, stigma-free mental health support for college campuses",
+      "To bridge the gap between students and mental health support through technology and empathy by building an accessible, stigma-free mental health support for college campuses",
   },
   {
     icon: <Target className="w-8 h-8 text-primary" />,
     title: "Our Vision",
     description:
       "To establish a unified support system that reaches every educational institute across the nation, ensuring no student is 
-left inaccessible to care and guidance.",
+left inaccessible to care and guidance.",
   },
   {
     icon: <Sparkles className="w-8 h-8 text-primary" />,
