@@ -30,6 +30,7 @@ import {
 } from "@/components/ui/dialog";
 import React from "react";
 import { Ripple } from "@/components/ui/ripple";
+import { WarpBackground } from "@/components/magicui/warp-background";
 
 export default function Home() {
   const emotions = [
@@ -117,7 +118,12 @@ export default function Home() {
           <div className="absolute w-[400px] h-[400px] rounded-full bg-secondary/10 blur-3xl bottom-0 right-0 animate-pulse delay-700" />
           <div className="absolute inset-0 bg-background/80 backdrop-blur-3xl" />
         </div>
-        <Ripple className="opacity-60" />
+        <WarpBackground>
+  <div className="w-80">
+    <p>Warp Background</p>
+    <p>This is a component that creates a warp background effect.</p>
+  </div>
+</WarpBackground>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
