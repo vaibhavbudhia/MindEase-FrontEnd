@@ -16,7 +16,7 @@
 
     /* Soft sage green as primary */
     --primary: #d946ef;
-    --primary-foreground: 150 40% 16%;
+    --primary-foreground: #d946ef;
 
     /* Gentle lavender as secondary */
     --secondary: 250 20% 96%;
