@@ -56,7 +56,7 @@ export function Header() {
                 MindEase
               </span>
               <span className="text-xs dark:text-muted-foreground">
-                Your mental health Companion{" "}
+                A Good Friend INDEED{" "}
               </span>
             </div>
           </Link>
