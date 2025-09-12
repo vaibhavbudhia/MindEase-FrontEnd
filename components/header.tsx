@@ -36,8 +36,7 @@ export function Header() {
             className="flex items-center space-x-2 transition-opacity hover:opacity-80"
           >
 
-            
-<HeartHandshake/>
+    <HeartHandshake className="h-7 w-7 text-primary animate-pulse-gentle" />
           <div className="flex flex-col">
               <span className="font-semibold text-lg bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
                 MindEase
