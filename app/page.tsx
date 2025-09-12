@@ -30,7 +30,6 @@ import {
 } from "@/components/ui/dialog";
 import React from "react";
 import { Ripple } from "@/components/ui/ripple";
-import { WarpBackground } from "@/components/magicui/warp-background";
 
 export default function Home() {
   const emotions = [
@@ -48,7 +47,7 @@ export default function Home() {
 
   const welcomeSteps = [
     {
-      title: "Hi, I'm MindEase 👋",
+      title: "Hi, I'm Aura 👋",
       description:
         "Your AI companion for emotional well-being. I'm here to provide a safe, judgment-free space for you to express yourself.",
       icon: Waves,
@@ -78,7 +77,7 @@ export default function Home() {
     {
       icon: HeartPulse,
       title: "24/7 Support",
-      description: "Always here to support you, any time of day",
+      description: "Always here to listen and support you, any time of day",
       color: "from-rose-500/20",
       delay: 0.2,
     },
@@ -91,15 +90,15 @@ export default function Home() {
     },
     {
       icon: Lock,
-      title: "Anonymous & Secure",
+      title: "Private & Secure",
       description: "Your conversations are always confidential and encrypted",
       color: "from-emerald-500/20",
       delay: 0.6,
     },
     {
       icon: MessageSquareHeart,
-      title: "Culturally Supportive",
-      description: "Talk to us like you would talk to your friend",
+      title: "Evidence-Based",
+      description: "Therapeutic techniques backed by clinical research",
       color: "from-blue-500/20",
       delay: 0.8,
     },
@@ -118,12 +117,7 @@ export default function Home() {
           <div className="absolute w-[400px] h-[400px] rounded-full bg-secondary/10 blur-3xl bottom-0 right-0 animate-pulse delay-700" />
           <div className="absolute inset-0 bg-background/80 backdrop-blur-3xl" />
         </div>
-        <WarpBackground>
-  <div className="w-80">
-    <p>Warp Background</p>
-    <p>This is a component that creates a warp background effect.</p>
-  </div>
-</WarpBackground>
+        <Ripple className="opacity-60" />
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -135,25 +129,25 @@ export default function Home() {
           <div className="inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-sm border border-primary/20 bg-primary/5 backdrop-blur-sm hover:border-primary/40 transition-all duration-300">
             <Waves className="w-4 h-4 animate-wave text-primary" />
             <span className="relative text-foreground/90 dark:text-foreground after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-primary/30 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300">
-              Your Mental Health Companion
+              Your AI Agent Mental Health Companion
             </span>
           </div>
 
           {/* Enhanced main heading with smoother gradient */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-plus-jakarta tracking-tight">
             <span className="inline-block bg-gradient-to-r from-primary via-primary/90 to-secondary bg-clip-text text-transparent [text-shadow:_0_1px_0_rgb(0_0_0_/_20%)] hover:to-primary transition-all duration-300">
-              We Are Here
+              Find Peace
             </span>
             <br />
             <span className="inline-block mt-2 bg-gradient-to-b from-foreground to-foreground/90 bg-clip-text text-transparent">
-              For YOU
+              of Mind
             </span>
           </h1>
 
           {/* Enhanced description with better readability */}
           <p className="max-w-[600px] mx-auto text-base md:text-lg text-muted-foreground leading-relaxed tracking-wide">
-            We’re here to listen with care and support you in the way you need,
-            whenever you need, wherever you need
+            Experience a new way of emotional support. Our AI companion is here
+            to listen, understand, and guide you through life's journey.
           </p>
 
           {/* Emotion slider section with enhanced transitions */}
@@ -252,7 +246,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <motion.div className="text-center mb-16 space-y-4 text-white ">
             <h2 className="text-3xl font-bold bg-gradient-to-r from-primary/90 to-primary bg-clip-text text-transparent dark:text-primary/90">
-              How MindEase Helps You
+              How Aura Helps You
             </h2>
             <p className="text-foreground dark:text-foreground/95 max-w-2xl mx-auto font-medium text-lg">
               Experience a new kind of emotional support, powered by empathetic
@@ -335,7 +329,7 @@ export default function Home() {
                 />
               ))}
             </div>
-      <Button
+            <Button
               onClick={() => {
                 if (currentStep < welcomeSteps.length - 1) {
                   setCurrentStep((c) => c + 1);
