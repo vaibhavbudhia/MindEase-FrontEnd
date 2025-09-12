@@ -31,7 +31,7 @@
     --accent-foreground: 200 8% 24%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 210 20% 98%;
+    --destructive-foreground: oklch(86.90% 0.0198 252.89);
 
     --border: 200 10% 90%;
     --input: 200 10% 90%;
