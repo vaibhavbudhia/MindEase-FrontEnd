@@ -97,8 +97,8 @@ export default function Home() {
     },
     {
       icon: MessageSquareHeart,
-      title: "Evidence-Based",
-      description: "Therapeutic techniques backed by clinical research",
+      title: "Culturally Supportive",
+      description: "Talk to us like you would talk to your family",
       color: "from-blue-500/20",
       delay: 0.8,
     },
