@@ -24,7 +24,7 @@ const features = [
     icon: <HeartHandshake className="w-10 h-10 text-primary" />,
     title: "Counsellor Integration",
     description:
-      "“Booking time made simple—pick a slot that works for you and you’re all set.",
+      "Booking time made simple—pick a slot that works for you and you’re all set.",
   },
   {
     icon: <Fingerprint className="w-10 h-10 text-primary" />,
