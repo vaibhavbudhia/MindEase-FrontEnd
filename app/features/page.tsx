@@ -10,7 +10,7 @@ import {
   Activity,
   Bot,
   LineChart,
-  HeartHandshake,
+HeartHandshake,
 } from "lucide-react";
 
 const features = [
