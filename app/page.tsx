@@ -329,7 +329,7 @@ export default function Home() {
                 />
               ))}
             </div>
-            <Button
+           /* <Button
               onClick={() => {
                 if (currentStep < welcomeSteps.length - 1) {
                   setCurrentStep((c) => c + 1);
@@ -340,7 +340,7 @@ export default function Home() {
                 }
               }}
               className="relative group px-6"
-            >
+            >*/
               <span className="flex items-center gap-2">
                 {currentStep === welcomeSteps.length - 1 ? (
                   <>
