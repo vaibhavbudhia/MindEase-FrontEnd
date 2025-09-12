@@ -329,18 +329,7 @@ export default function Home() {
                 />
               ))}
             </div>
-{/*             <Button
-              onClick={() => {
-                if (currentStep < welcomeSteps.length - 1) {
-                  setCurrentStep((c) => c + 1);
-                } else {
-                  setShowDialog(false);
-                  setCurrentStep(0);
-                  // Here you would navigate to the chat interface
-                }
-              }}
-              className="relative group px-6"
-            > */}
+      
               <span className="flex items-center gap-2">
                 {currentStep === welcomeSteps.length - 1 ? (
                   <>
