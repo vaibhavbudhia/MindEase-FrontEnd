@@ -552,7 +552,7 @@ export default function TherapyPage() {
                         </motion.div>
                       </div>
                       <span className="bg-gradient-to-r from-primary/90 to-primary bg-clip-text text-transparent">
-                        AI Therapist
+                        MindEase
                       </span>
                     </div>
                     <p className="text-muted-foreground mt-2">
@@ -621,7 +621,7 @@ export default function TherapyPage() {
                           <div className="flex items-center justify-between">
                             <p className="font-medium text-sm">
                               {msg.role === "assistant"
-                                ? "AI Therapist"
+                                ? "MindEase"
                                 : "You"}
                             </p>
                             {msg.metadata?.technique && (
