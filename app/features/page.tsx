@@ -19,7 +19,7 @@ import {
 const features = [
   {
     icon: <Bot className="w-10 h-10 text-primary" />,
-    title: "AI-Powered Therapy",
+    title: "AI Interactions",
     description:
       "24/7 access to empathetic AI agents trained in various therapeutic approaches, providing personalized mental health support.",
   },
