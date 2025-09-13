@@ -10,7 +10,7 @@
 
 ## 📸 Project Showcase
 
-https://mindease-plum.vercel.app/
+Project Prototype: https://mindease-plum.vercel.app/
 
 ## 🌟 Key Features
 
