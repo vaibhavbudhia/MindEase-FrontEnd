@@ -123,12 +123,12 @@ const calculateDailyStats = (activities: Activity[]): DailyStats => {
       : null;
 
   // Count therapy sessions (all sessions ever)
-  const therapySessions = activities.filter((a) => a.type === "therapy").length;
+  const Our_Intraction = activities.filter((a) => a.type === "therapy").length;
 
   return {
     moodScore: averageMood,
     completionRate: 100, // Always 100% as requested
-    mindfulnessCount: therapySessions, // Total number of therapy sessions
+    mindfulnessCount: Our_Intraction, // Total number of therapy sessions
     totalActivities: todaysActivities.length,
     lastUpdated: new Date(),
   };
