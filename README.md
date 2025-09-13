@@ -10,20 +10,7 @@
 
 ## 📸 Project Showcase
 
-<div align="center">
-  <img width="1918" height="926" alt="MindEase Dashboard" src="https://github.com/user-attachments/assets/12c43d4e-e321-4513-9ab9-94c2654bdf58" />
-  <img src="https://i.imghippo.com/files/CBbx8767gPg.png" alt="Interactive Session" width="45%" />
-</div>
-
-<div align="center">
-  <img src="https://i.imghippo.com/files/RHud5372Iq.png" alt="Progress Tracking" width="45%" />
-  <img src="https://i.imghippo.com/files/FBU1874HaE.png" alt="Mental Health Analytics" width="45%" />
-</div>
-
-<div align="center">
-  <img src="https://i.imghippo.com/files/Su5718PoM.png" alt="AI Interaction" width="45%" />
-  <img src="https://i.imghippo.com/files/Q1022fI.png" alt="Therapeutic Features" width="45%" />
-</div>
+https://mindease-plum.vercel.app/
 
 ## 🌟 Key Features
 
