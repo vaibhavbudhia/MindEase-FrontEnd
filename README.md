@@ -12,7 +12,7 @@
 
 <div align="center">
   <img src="https://i.imghippo.com/files/uath6507iKU.png" alt="MindEase Dashboard" width="45%" />
-  <img src="https://i.imghippo.com/files/CBbx8767gPg.png" alt="Therapy Session" width="45%" />
+  <img src="https://i.imghippo.com/files/CBbx8767gPg.png" alt="Interactive Session" width="45%" />
 </div>
 
 <div align="center">
