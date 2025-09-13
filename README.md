@@ -11,7 +11,7 @@
 ## 📸 Project Showcase
 
 <div align="center">
-  <img src="https://i.imghippo.com/files/uath6507iKU.png" alt="MindEase Dashboard" width="45%" />
+  <img width="1918" height="926" alt="MindEase Dashboard" src="https://github.com/user-attachments/assets/12c43d4e-e321-4513-9ab9-94c2654bdf58" />
   <img src="https://i.imghippo.com/files/CBbx8767gPg.png" alt="Interactive Session" width="45%" />
 </div>
 
