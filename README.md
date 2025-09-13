@@ -1,10 +1,10 @@
 # MindEase: AI-Powered Mental Health Support Platform
 
-[![Sonic Token](https://img.shields.io/badge/Sonic-Integration-purple.svg)]()
-[![Zerepy](https://img.shields.io/badge/Zerepy-AI_Agent-blue.svg)]()
+[![Sonic Token](https://img.shields.io/badge/Agent-Integration-purple.svg)]()
+[![Zerepy](https://img.shields.io/badge/Llama-AI_Agent-blue.svg)]()
 [![HIPAA](https://img.shields.io/badge/HIPAA-Compliant-green.svg)]()
 [![Crisis Response](https://img.shields.io/badge/Crisis-Detection-red.svg)]()
-[![Smart Contract](https://img.shields.io/badge/Sonic_Blaze-Testnet-orange.svg)]()
+[![Smart Contract](https://img.shields.io/badge/MindEase-Testnet-orange.svg)]()
 
 > An autonomous AI therapist powered by advanced NLP and emotional intelligence, providing personalized mental health support while ensuring privacy through blockchain technology.
 
