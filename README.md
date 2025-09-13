@@ -6,7 +6,7 @@
 [![Crisis Response](https://img.shields.io/badge/Crisis-Detection-red.svg)]()
 [![Smart Contract](https://img.shields.io/badge/Sonic_Blaze-Testnet-orange.svg)]()
 
-> An autonomous AI therapist powered by advanced NLP and emotional intelligence, providing personalized mental health support while ensuring privacy through blockchain technology. Built on Sonic Blaze Testnet with Zerepy agents.
+> An autonomous AI therapist powered by advanced NLP and emotional intelligence, providing personalized mental health support while ensuring privacy through blockchain technology.
 
 ## 📸 Project Showcase
 
@@ -27,22 +27,22 @@
 
 ## 🌟 Key Features
 
-### 🤖 Advanced AI Therapy System
+### 🤖 Advanced AI Session System
 
-- **Zerepy Agent Integration**
-  - Advanced autonomous agent powered by state-of-the-art gpt-4
+- **Agent Integration**
+  - Advanced autonomous agent powered by state-of-the-art Llama
   - Multi-agent coordination for comprehensive care
   - Dynamic personality adaptation based on user needs
   - Specialized therapeutic approaches and interventions
   - Real-time crisis detection and emergency protocols
   - Continuous learning and improvement system
 
-### 🎨 Blockchain-Secured Therapy Sessions
+### 🎨 Blockchain-Secured Sessions
 
 - **Smart Contract Architecture**
 
   ```solidity
-  struct TherapySession {
+  struct Session {
       uint256 sessionId;
       uint256 timestamp;
       string summary;
@@ -62,7 +62,7 @@
   - Granular consent management system
 
 - **NFT-Based Progress Tracking**
-  - ERC-721 therapy session certificates
+  - ERC-721 session certificates
   - Achievement-based milestone NFTs
   - Privacy-preserving metadata structure
   - Verifiable progress records
@@ -82,16 +82,6 @@
   - Therapeutic sound management
   - Environmental adaptation to mood
 
-### 💫 Sonic Token Integration
-
-```typescript
-interface ISonicToken {
-    function mint(address to, uint256 amount) external;
-    function stake(uint256 amount) external;
-    function getRewards() external view returns (uint256);
-}
-```
-
 - **Tokenized Reward System**
   - Achievement-based token distribution
   - Engagement staking mechanisms
@@ -103,7 +93,7 @@ interface ISonicToken {
 ### AI Agent Architecture
 
 ```typescript
-class TherapyAgentConfig {
+class SessionAgentConfig {
   name: string;
   personality: string;
   specialties: string[];
@@ -152,8 +142,8 @@ const detectStressSignals = (message: string): StressPrompt | null => {
 1. **Clone & Install**
 
    ```bash
-   git clone https://github.com/blocklinklabs/aura3.0.git
-   cd aura3.0
+   git clone https://github.com/vaibhavbudhia/MindEase-FrontEnd
+   cd MindEase-FrontEnd
    npm install
    ```
 
@@ -162,15 +152,14 @@ const detectStressSignals = (message: string): StressPrompt | null => {
    ```bash
    cp .env.example .env
    # Add required API keys:
-   # - SONIC_PRIVATE_KEY
-   # - GEMINI_API_KEY
-   # - ZEREPY_API_KEY
+   # - Fast_API_KEY
+   # - NestJs_API_KEY
    ```
 
 3. **Deploy Smart Contracts**
 
    ```bash
-   npx hardhat run scripts/deploy.ts --network sonic_blaze_testnet
+   npx hardhat run scripts/deploy.ts --network MindEase-FrontEnd
    ```
 
 4. **Start Development Server**
@@ -233,8 +222,7 @@ MIT License - see [LICENSE](LICENSE)
 
 ## 🌟 Acknowledgments
 
-- Sonic
-- Zerepy AI Framework
+- AI Framework
 - Mental Health Professionals
 - Open Source Community
 
