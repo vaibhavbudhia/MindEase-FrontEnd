@@ -33,7 +33,7 @@ import { Ripple } from "@/components/ui/ripple";
 
 export default function Home() {
   const emotions = [
-    { value: 0, label: "🥹 Very Low", color: "from-blue-500/50" },
+    { value: 0, label: "🥹 VeryLow", color: "from-blue-500/50" },
     { value: 25, label: "😥 Anxious", color: "from-green-500/50" },
     { value: 50, label: "🫂 Alone", color: "from-purple-500/50" },
     { value: 75, label: "😩 Frustrated", color: "from-yellow-500/50" },
@@ -199,7 +199,7 @@ export default function Home() {
 
             <div className="text-center">
               <p className="text-sm text-muted-foreground animate-pulse">
-                Slide to express how you're feeling today
+                Slide to express how you're feeling
               </p>
             </div>
           </motion.div>
