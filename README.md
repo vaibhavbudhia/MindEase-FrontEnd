@@ -1,4 +1,4 @@
-# MindEase: AI-Powered Mental Health Support on Sonic 🧠⛓️
+# MindEase: AI-Powered Mental Health Support Platform
 
 [![Sonic Token](https://img.shields.io/badge/Sonic-Integration-purple.svg)]()
 [![Zerepy](https://img.shields.io/badge/Zerepy-AI_Agent-blue.svg)]()
