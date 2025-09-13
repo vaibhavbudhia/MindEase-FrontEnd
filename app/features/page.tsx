@@ -11,6 +11,7 @@ import {
   LineChart,
   Wifi,
   Heart,
+  Amphora,
 } from "lucide-react";
 
 const features = [
@@ -21,10 +22,10 @@ const features = [
       "24/7 access to empathetic AI agents trained in various therapeutic approaches, providing personalized mental health support.",
   },
   {
-    icon: <Shield className="w-10 h-10 text-primary" />,
+    icon: <Amphora  className="w-10 h-10 text-primary" />,
     title: "Blockchain Security",
     description:
-      "hello.",
+      ".",
   },
   {
     icon: <Brain className="w-10 h-10 text-primary" />,
