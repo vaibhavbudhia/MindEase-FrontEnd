@@ -24,7 +24,7 @@ const features = [
     icon: <Shield className="w-10 h-10 text-primary" />,
     title: "Blockchain Security",
     description:
-      "Your therapy sessions are secured by blockchain technology, ensuring complete privacy and transparent record-keeping.",
+      "hello.",
   },
   {
     icon: <Brain className="w-10 h-10 text-primary" />,
